@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,30 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Ремонт електроінструментів</title>
 </head>
+
 <body>
     <header>
         <div class="container">
-            <div class="top">
-            <img src="img/logo2.png" alt="Сервісний центр по ремонту електроінструменту" class="logo">
-            <nav>
+            <div class="menu__logo">
+                <img src="img/logo-service.png" alt="Сервісний центр по ремонту електроінструменту" class="logo">
+            </div>
+
+            <div class="burger">
+                <a href="#" class="mobile_menu_click"><img src="img/burger-menu.png" alt="Бургер меню" class="logo"></a>
+            </div>
+
+            <nav class="menu__category">
                 <ul class="menu">
                     <li>
                         <a href="#service">Послуги</a>
                     </li>
-                     <li>
+                    <li>
                         <a href="#priceList">Бренди</a>
                     </li>
-                     <li>
+                    <li>
                         <a href="#priceList">Прайс</a>
                     </li>
-                     <li>
+                    <li>
                         <a href="#leedForm">Заявка</a>
                     </li>
                     <li>
@@ -31,13 +39,13 @@
                     </li>
                 </ul>
             </nav>
-            </div> 
-            <div class="title">
-                <div class="pretitle">Cервісний Центр</div>
+
+            <div class="titleMain">
+                <div class="pretitle">Cервісний Центр<span class="textColor"> ТМ "Квітка"</span></div>
                 <h1>Ремонт Електроінструменту</h1>
-                <div class="teltitle">+38(067) 456 33 45</div>
+                <div class="teltitle"> <a href="tel:30674563345">(067)-456-33-45</a></div>
             </div>
-             <a href="#" class="button">Детальніше</a>
+            <a href="#service" class="button">Детальніше</a>
         </div>
     </header>
     <main>
@@ -48,201 +56,340 @@
                     <p>Додаткові послуги</p>
                     <hr>
                 </div>
-                <div class="poslugi">
+                <div class="poslugiGrid">
                     <div class="service_item">
-                        <img src="img/icon_harantiya.png" alt="Гарантія">
+                        <img src="img/icon/garantiya.png" alt="Гарантія">
                         <h3>Гарантія</h3>
-                        <p>Підтримуємо офіційну гарантію виробника і в межах гарантійного періоду проводимо безкоштовний ремонт.</p>
+                        <p>В межах офіційного гарантійного періоду виробника проводимо безкоштовний ремонт.</p>
                     </div>
                     <div class="service_item">
-                        <img src="img/icon_remont.png" alt="Ремонт">
+                        <img src="img/icon/remont.png" alt="Ремонт">
                         <h3>Ремонт</h3>
-                        <p>Ремонтуємо усі наявні в продажі інструменти, використовуючи при цьому тільки оригінальні запчастини.</p>
+                        <p>Ремонтуємо усі електороінструментин наявні в продажі інтернет-магазину "ТМ Квітка".</p>
                     </div>
                     <div class="service_item">
-                        <img src="img/icon_orenda.png" alt="Оренда">
+                        <img src="img/icon/orenda.png" alt="Оренда">
                         <h3>Оренда</h3>
                         <p>На час ремонту пропонуємо інструмент в оренду на заміну зламаного.</p>
                     </div>
                     <div class="service_item">
-                        <img src="img/icon_zapchast.png" alt="Запчастини">
+                        <img src="img/icon/zapchast.png" alt="Запчастини">
                         <h3>Запчастини</h3>
                         <p>Замовляємо тільки оригінальні запчастини напряму від виробника.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="aboutAs">
+        <section id="aboutUs">
             <div class="container">
-                 <div class="title">
+                <div class="title">
                     <h2>Про Сервіс</h2>
                     <p>Декілька слів про наш сервіс</p>
                     <hr>
                 </div>
-                <div class="proservice">
-                    <h3>Про Сервіс</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.
-                    Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit 
-                    odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a 
-                    aliquam odio euismod sit amet. Quisque laoreet sem .....</p>
-                    <a href="#" class="button">Заявка</a>
-                </div>
-                <div class="instrument">
-                    <ul>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                        <li><img src="img/insriment_icon" alt="інструмент">Ремонт Перфораторів</li>
-                    </ul>
+                <div class="aboutUsGrid">
+                    <div class="proservice">
+                        <h3>Про Сервіс</h3>
+                        <p>Сервісний центр ТМ "Квітка" - це професійний сервіс з ремонту елеткро та бензо інструменту. Наші спеціалісти проводять швидку діагностику інструменту та на 100% визначають причину несправності. В ході ремонту використовуємо тільки
+                            оригінальні запчастини. Терміни ремонту визначаються наявністю запасних частин на складі. У разі їх відсутності, замовляємо тільки оригінальні запчастини напряму від виробника. Ми ремонтуємо наступні інструменти: </p>
+                        <a href="#leedForm" class="button">Заявка</a>
+                    </div>
+                    <div class="instrument1">
+                        <ul>
+                            <li>Відбійні молотки</li>
+                            <li>Перфоратори</li>
+                            <li>Дрилі</li>
+                            <li>Шуруповерти</li>
+                            <li>Шліфмашини</li>
+                            <li>Електролобзики</li>
+                            <li>Електропили</li>
+                        </ul>
+                    </div>
+                    <div class="instrument2">
+                        <ul>
+                            <li>Електрорубанки</li>
+                            <li>Зварювальні апарати</li>
+                            <li>Бетонозмішувачі</li>
+                            <li>Компресори</li>
+                            <li>Міксери</li>
+                            <li>Глибинні насоси</li>
+                            <li>Газонокосарки</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="priceList">
             <div class="container">
-                 <div class="title">
+                <div class="title">
                     <h2>Прайслист</h2>
                     <p>Вартість наших послуг</p>
                     <hr>
                 </div>
-                
-                <table class="price">
-                  <tr>
-                    <td>Заміна двигуна, Дриль</td>
-                    <td>від 1000 грн.</td>
-                  </tr>
-                  <tr>
-                    <td>Ремонт зєднань, Шліфмашина</td>
-                    <td>від 200 грн.</td>
-                  </tr>
-                  <tr>
-                    <td>Ремонт щіток,Електропил</td>
-                    <td>від 70 грн.</td>
-                  </tr>
-                  <tr>
-                    <td>Заміна стержня, Перфоратор</td>
-                    <td>від 200 грн.</td>
-                  </tr>
-				  <tr>
-                    <td>Ремонт зєднань, Шліфмашина</td>
-                    <td>від 200 грн.</td>
-                  </tr>
-            </table>
+                <div class="priceGrid">
+                    <div class="priceTable">
+                        <table>
+                            <tr>
+                                <th colspan="3">Ремонт інструменту</th>
+                            </tr>
+                            <tr>
+                                <td>Категорія</td>
+                                <td>Діагностика (грн.)</td>
+                                <td>Ремонт (грн.)</td>
+                            </tr>
+                            <tr>
+                                <td>Шуруповерти, дрилі, ударні дрилі, електро лобзики, вагою до 3 кг</td>
+                                <td>60</td>
+                                <td>70-110</td>
+                            </tr>
+                             <tr>
+                                <td>Шліфувальні машинки, КШМ з діаметром круга до 125 мм, вагою до 3 кг</td>
+                                <td>60</td>
+                                <td>70-110</td>
+                            </tr>
+                            <tr>
+                                <td>Перфоратори SDS-plus, інший інструмент  вагою від3 до 5 кг</td>
+                                <td>70</td>
+                                <td>90-130</td>
+                            </tr>
+                              <tr>
+                                <td>КШМ з діаметром круга більше 125 мм, ручні дискові пилки вагою від3 до 5 кг</td>
+                                <td>70</td>
+                                <td>90-130</td>
+                            </tr>
+                            <tr>
+                                <td>Перфоратори SDS max, відбійники молотки вагою від 5 до 11 кг</td>
+                                <td>130</td>
+                                <td>140-170</td>
+                            </tr>
+                            <tr>
+                                <td>Інший електроінструмент вагою від 5 до 11 кг</td>
+                                <td>130</td>
+                                <td>140-170</td>
+                            </tr>
+                            <tr>
+                                <td>Перфоратори, відбійники та інший електроінструмент вагою понад 11 кг</td>
+                                <td>220</td>
+                                <td>220-300</td>
+                            </tr>
+                             <tr>
+                                <td>Малий бензоінструмент( мотопили)</td>
+                                <td>300</td>
+                                <td>350-450</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="priceTable">
+                        <table>
+                            <tr>
+                                <th colspan="3">Оренда інструменту</th>
+                            </tr>
+                            <tr>
+                                <td>Інструмент</td>
+                                <td>.....</td>
+                                <td>Вартість, грн\доба</td>
+                            </tr>
+                            <tr>
+                                <td>Пила дискова GKS - 190</td>
+                                <td>.....</td>
+                                <td>150 грн.</td>
+                            </tr>
+                            <tr>
+                                <td>Дриль ударна GSB 21-2 RCT</td>
+                                <td>.....</td>
+                                <td>100 грн.</td>
+                            </tr>
+                            <tr>
+                                <td>Кутова шліфмашина GWS 15-125 CIH</td>
+                                <td>.....</td>
+                                <td>130 грн.</td>
+                            </tr>
+                            <tr>
+                                <td>Перфоратор GBH 2-26 DRE</td>
+                                <td>.....</td>
+                                <td>150 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Кутова шліфмашина GWS 22-230 H</td>
+                                <td>.....</td>
+                                <td>200 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Гайковерт GDS 24</td>
+                                <td>.....</td>
+                                <td>200 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Шуруповерт GSB 180- LI</td>
+                                <td>.....</td>
+                                <td>150 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Електро лобзик GST 90 BE</td>
+                                <td>.....</td>
+                                <td>120</td>
+                            </tr>
+                             <tr>
+                                <td>Відбійний молоток GSH 11 E</td>
+                                <td>.....</td>
+                                <td>250 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Перфоратор GBH 8-45 DV</td>
+                                <td>.....</td>
+                                <td>200 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Кутова шліфмашина GWS 12-125 CIE</td>
+                                <td>.....</td>
+                                <td>100 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Відбійний молоток GSH 16-30</td>
+                                <td>.....</td>
+                                <td>330 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Пила ланцюгова GKE 40 BCE</td>
+                                <td>.....</td>
+                                <td>230 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Зварювальний апарат + захисна маска</td>
+                                <td>.....</td>
+                                <td>230 грн.</td>
+                            </tr>
+                             <tr>
+                                <td>Перфоратор GBH 5-40</td>
+                                <td>.....</td>
+                                <td>200 грн.</td>
+                            </tr>
+                              <tr>
+                                <td>Нівелір оптичний GOL 20 D</td>
+                                <td>.....</td>
+                                <td>170 грн.</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="brendLogo">
             <div class="container">
-                 <div class="title">
+                <div class="title">
                     <h2>Виробники</h2>
                     <p>Бренди інструментів які ми ремонтуємо</p>
                     <hr>
                 </div>
                 <div class="brendy">
-                    <img src="img/brendlogo1.jpg" alt="Bosh">
-                    <img src="img/brendlogo1.jpg" alt="Bosh">
-                    <img src="img/brendlogo1.jpg" alt="Bosh">
-                    <img src="img/brendlogo1.jpg" alt="Bosh">
-                    <img src="img/brendlogo1.jpg" alt="Bosh">
-                    <img src="img/brendlogo1.jpg" alt="Bosh">
-                    <img src="img/brendlogo1.jpg" alt="Bosh">
+                    <img src="img/vendor/bosch.png" alt="Ремонт інструментів Bosch">
+                    <img src="img/vendor/fiolent.png" alt="Ремонт інструментів Фіолент">
+                    <img src="img/vendor/dremel.png" alt="Ремонт інструментів Dremel">
+                    <img src="img/vendor/makita.png" alt="Ремонт інструментів Makita">
+                    <img src="img/vendor/metabo.png" alt="Ремонт інструментів Metabo">
+                    <img src="img/vendor/al-ko.png" alt="Ремонт інструментів Al-ko">
+                    <img src="img/vendor/oleomac.png" alt="Ремонт інструментів OleoMac">
+                    <!-- <img src="img/vendor/miol.png" alt="Ремонт інструментів Miol">-->
+                    <img src="img/vendor/skil.png" alt="Ремонт інструментів Skill">
+                    <!--<img src="img/vendor/paton.png" alt="Ремонт інструментів Патон">-->
                 </div>
             </div>
         </section>
-        <section id="leedForm">
+        <div id="leedForm">
             <div class="container">
-                 <div class="title">
+                <div class="title">
                     <h2>Заявка на ремон</h2>
                     <p>Введіть ваші дані і вам перетелефонують</p>
                     <hr>
                 </div>
-                 <form method="POST" action="https://formspree.io/your@email.com" autocomplete="on" enctype="multipart/form-data" name="quiz">
-                
-                 <label>Ваш email:<br> 
-                     <input type="email" required placeholder="you-email@gmail.com">
-                 </label>  
-                 <br> 
-                 <br> 
-                 <label>Ім'я:<br>
-                   <input type="text" name="firstname">
+                <div class="forma">
+                    <form id="client-form" autocomplete="on">
+                        <label>Ваше Ім'я:<br>
+                   <input type="text" id="name">
                  </label>
-                 <br> 
-                 <br>
-                 <label>Номер телефону:<br> 
-                    <input type="tel" name="usrtel">
+                        <br>
+                        <br>
+                        <label>Номер телефону:<br> 
+                    <input type="tel" id="phone" required placeholder="+380(...)">
                  </label>
-                 <br> 
-                 <br>
-                 <label>Тип інструменту/ Що поламалось:<br>
-                    <textarea name="polomka" rows="5" cols="21">
-                    </textarea>
+                        <br>
+                        <br>
+                        <label>Інструмент/несправність:<br>
+                    <textarea id="insrument"></textarea>
                  </label>
-                 <br> 
-                 <br>
-                 <label>Потрібна діагностика інструменту:<br>так
-                    <input type="checkbox" name="diagnosrika" value="yes">
-                 </label>
-                <br> 
-                <br>
-                <label>
-                <input type="submit" value="Відправити"/>
+                        <br>
+                        <br>
+                        <label>
+                <input type="submit" value="Відправити" class="bottumSend"/>
                 </label>
-                </form>
+                    </form>
+                    <dialog id="goodSend">
+                        <div class="sendWindosGrid">
+                            <img src="img/icon/goodSend.png" alt="Години роботи">
+                            <p class="invisibal">Заявка прийнята, найближчим часом Вам зателефоують. Дякуємо, що вибрали наш сервіс.</p>
+                        </div>
+                    </dialog>
+                    <dialog id="badSend">
+                        <div class="sendWindosGrid">
+                            <img src="img/icon/badSend.png" alt="Години роботи">
+                            <p class="invisibal">Помилка при відпраці, будьласка обновіть сторінку та повторно введіть дані, або зателефонуйте нам за номером 067-456-33-45. Вибачаємося за незручності.</p>
+                        </div>
+                    </dialog>
+                </div>
             </div>
-        </section>
+        </div>
+        <div class="brClass"></div>
         <section id="contact">
             <div class="container">
-                 <div class="title">
+                <div class="title">
                     <h2>Контакти</h2>
                     <p>Якщо у вас виникли будь-які питання</p>
                     <hr>
                 </div>
-                   <div class="kontakty">
+                <div class="kontaktyGrid">
                     <div class="kontakty_item">
-                        <img src="img/icon_adres.png" alt="Адреса:">
+                        <img src="img/icon/map.png" alt="Адреса:">
                         <h3>Адреса:</h3>
                         <p>ПМ. ЛЬВІВ ВУЛ. ПРОМИСЛОВА, 47А</p>
-                        <hr>
                     </div>
                     <div class="kontakty_item">
-                        <img src="img/icon_tel.png" alt="Телефони:">
+                        <img src="img/icon/phone.png" alt="Телефони:">
                         <h3>Телефони:</h3>
                         <p>+38(067)675 51 09 <br> +38(032) 232 19 41</p>
-                        <hr>
                     </div>
                     <div class="kontakty_item">
-                        <img src="img/icon_hour.png" alt="Години роботи">
-                        <h3>Години роботи:</h3> 
-                        <p>+ ПН.-ПТ.<br>09:00-18:00</p>  
-                        <hr>
+                        <img src="img/icon/hour.png" alt="Години роботи">
+                        <h3>Години роботи:</h3>
+                        <p>ПН.-ПТ.<br>09:00-18:00</p>
                     </div>
                     <div class="kontakty_item">
-                        <img src="img/icon_mail.png" alt="E-mail">
+                        <img src="img/icon/mail.png" alt="E-mail">
                         <h3>E-mail:</h3>
                         <p>SERV@KWITKA.COM.UA</p>
-                        <hr>
                     </div>
                 </div>
             </div>
         </section>
         <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2162.7777169538017!2d24.04320273410782!3d49.86142029606762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0321ad6375%3A0x9a51151c54fe1087!2z0LLRg9C70LjRhtGPINCf0YDQvtC80LjRgdC70L7QstCwLCA0Nywg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1512487351089"
+                height="450" style="border:0" allowfullscreen></iframe>
         </div>
     </main>
+    <div class="hrblack"></div>
     <footer>
-          <div class="container">
+        <div class="container">
             <div class="socialicon">
-                <img src="img/faceboock.png" alt="Facebook">
-                <img src="img/gplus.png" alt="Google+">
-                <img src="img/youtube.png" alt="YouTube">
+                <a href="https://www.facebook.com/KwitkaTM" target="_blank">   <img src="img/faceboock.png" alt="Facebook"> </a>
+                <a href="https://plus.google.com/u/1/108429194997628085287" target="_blank"> <img src="img/gplus.png" alt="Google+"> </a>
+                <a href="http://www.youtube.com/user/kwitkatv" target="_blank">   <img src="img/youtube.png" alt="YouTube"> </a>
             </div>
             <div class="copyr">
-                <p>2017р. Всі права захищено. Автор Качор Тарас</p>
+                <p>2017р. Всі права захищено ТМ "Квітка". Автор Качор Тарас</p>
             </div>
-          </div>    
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/client-form.js"></script>
 </body>
+
 </html>
