@@ -19,10 +19,21 @@ function sendForm(ev) {
             .done(() => $('#goodSend').attr('open', 'open'))
             .fail(() => $('#badSend').attr('open', 'open'));
     }
-
-
 }
 
 $('.mobileMenuClick').click(function() {
     $('.menuCategory').fadeToggle();
+});
+
+
+$(function() {
+    $('.smooth').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1500);
+        }
+    });
 });

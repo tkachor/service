@@ -395,11 +395,12 @@ table td {
 	max-width: 200px;
 	margin-left: 20px;
 	margin-top: 20px;
-	-webkit-filter: grayscale(0%);
+	-webkit-filter: grayscale(100%);
+
 }
 
 .brendy img:hover {
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(0%);
 }
 
 
