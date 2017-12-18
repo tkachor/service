@@ -72,14 +72,14 @@ nav {
 	text-transform: uppercase;
 }
 
-.mobile_menu_click {
+.mobileMenuClick {
 	display: none;
 	float: right;
 	margin-right: 15px;
 	margin-top: 25px;
 }
 
-.mobile_menu_click img {
+.mobileMenuClick img {
 	width: 40px;
 	margin: 0px auto;
 }
@@ -88,17 +88,16 @@ nav {
 	nav {
 		display: none;
 	}
-	.mobile_menu_click {
+	.mobileMenuClick {
 		display: block;
 	}
-	menu__category li {
+	menuCategory li {
 		display: block;
 	}
 	.menu li {
 		display: block;
 	}
 }
-
 
 .button {
 	background: #ff3823;
@@ -115,7 +114,6 @@ nav {
 
 .button:hover {
 	background: #fd4a37;
-
 }
 
 h1 {
@@ -125,9 +123,10 @@ h1 {
 	text-align: center;
 	margin: 10px;
 }
+
 @media screen and (max-width: 715px) {
 	h1 {
-	font-size: 40px;
+		font-size: 40px;
 	}
 }
 
@@ -148,7 +147,7 @@ h1 {
 
 @media screen and (max-width: 715px) {
 	.pretitle {
-	font-size: 20px;
+		font-size: 20px;
 	}
 }
 
@@ -172,7 +171,6 @@ h1 {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 20px;
-
 }
 
 .titleMain {
@@ -195,8 +193,8 @@ h1 {
 	padding-top: 30px;
 }
 
-.textColor{
-	color:#ff3823;
+.textColor {
+	color: #ff3823;
 }
 
 .title p {
@@ -355,6 +353,7 @@ h1 {
 }
 
 table {
+	width: 95%;
 	text-align: left;
 	border-collapse: separate;
 	border-spacing: 5px;
@@ -370,11 +369,12 @@ table th {
 	text-align: center;
 	font-size: 16px;
 	padding: 10px;
-	background: #f7f6f6;
+	background: #fb4734;
+	color: white;
 }
 
 table td {
-	background: #f7f6f6;
+	background: #fff;
 	padding: 10px;
 }
 
@@ -396,7 +396,6 @@ table td {
 	margin-left: 20px;
 	margin-top: 20px;
 	-webkit-filter: grayscale(0%);
-
 }
 
 .brendy img:hover {
@@ -447,7 +446,6 @@ dialog {
 
 .sendWindosGrid img {
 	margin: 5px auto;
-
 }
 
 input {
@@ -464,8 +462,6 @@ input:focus {
 	outline: none;
 }
 
-
-
 textarea {
 	margin-top: 5px;
 	width: 200px;
@@ -474,8 +470,6 @@ textarea {
 	border-style: dashed;
 	border-color: #909090;
 }
-
-
 
 .bottumSend {
 	background: #ff3823;
@@ -488,18 +482,12 @@ textarea {
 	text-transform: uppercase;
 	margin: 0 auto;
 	text-align: center;
-
 }
-
-
-
-
 /*   FORM  END       */
 
 /***********************************************************************/
 
 /*   CONTACT START   */
-
 .kontaktyGrid {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
@@ -525,7 +513,6 @@ textarea {
 	}
 }
 
-
 .kontakty_item {
 	padding: 10px;
 	margin: 0 auto;
@@ -537,21 +524,15 @@ textarea {
 	width: 90px;
 }
 
-
 #map iframe {
 	height: 450px;
 	width: 100%;
 	border: 0;
 	margin-bottom: -3px;
 }
-
-
 /*   CONTACT  END    */
-
 /***********************************************************************/
-
 /*   FOOER START   */
-
 .hrblack {
 	height: 8px;
 	background-color: #7a7a7a;
@@ -581,12 +562,7 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 }
-
-
-
-
 /*   FOOER END   */
-
 #service {
 	background: #ebebeb;
 }
