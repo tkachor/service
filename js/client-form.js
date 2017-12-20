@@ -16,10 +16,13 @@ function sendForm(ev) {
                 },
                 dataType: "json"
             })
+
             .done(() => $('#goodSend').attr('open', 'open'))
             .fail(() => $('#badSend').attr('open', 'open'));
+        //  .done(() => $('#client-form')[0].reset());   
     }
 }
+
 
 $('.mobileMenuClick').click(function() {
     $('.menuCategory').fadeToggle();

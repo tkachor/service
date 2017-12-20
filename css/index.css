@@ -6,11 +6,13 @@ body {
 	background-color: #f7f6f6;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	color: #444444;
+	
 }
 
 header {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	background: url(../img/bgdesktop.jpg) no-repeat center top / cover;
+	background-color: #929292;
 	padding-bottom: 160px;
 }
 
@@ -38,6 +40,13 @@ header {
 	float: left;
 }
 
+
+@media (max-width: 650px) {
+	.logo {
+		margin: 35px;
+	}
+}
+
 nav {
 	float: right;
 	margin-right: 20px;
@@ -47,11 +56,9 @@ nav {
 .menu {
 	padding: 0;
 	margin: 0;
-
 }
 
 .menu li {
-
 	display: inline;
 	margin-right: 20px;
 	font-size: 14px;
@@ -84,18 +91,49 @@ nav {
 	margin: 0px auto;
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 650px) {
 	nav {
 		display: none;
+		float: none;
+		margin: 0 auto;
 	}
 	.mobileMenuClick {
 		display: block;
+		margin-top: 37px;
 	}
+
 	menuCategory li {
 		display: block;
+		position: fixed;
+		margin: 0px auto;
 	}
 	.menu li {
-		display: block;
+		display: inline;
+		padding: 15px;
+
+	}
+
+	.menu {
+		background: rgba(0, 0, 0, 0.55);
+		padding-bottom: 7px;
+		padding-top: 7px;
+		position: fixed;
+		margin: 0px auto;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.menu li:hover {
+		padding: 7px 15px;
+		border-radius: 0px;
+		background: rgba(0, 0, 0, 0.41);
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.menu li {
+		margin-right: 0px;
 	}
 }
 
@@ -137,20 +175,21 @@ h1 {
 }
 
 .pretitle {
-	font-size: 25px;
+	font-size: 20px;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 150px;
 	margin-bottom: 20px;
+	font-family: Arial;
+	font-weight: bold;
 }
 
 @media screen and (max-width: 715px) {
 	.pretitle {
-		font-size: 20px;
+		font-size: 16px;
 	}
 }
-
 
 .teltitle {
 	font-size: 40px;
@@ -178,6 +217,18 @@ h1 {
 	padding-bottom: 30px;
 }
 
+.titleMain a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 440px) {
+
+	.titleMain {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+}
+
 /*   HEADER  END     */
 
 /************************************************************************/
@@ -193,8 +244,9 @@ h1 {
 	padding-top: 30px;
 }
 
-.textColor {
+.brendText {
 	color: #ff3823;
+	font-family: Arial;
 }
 
 .title p {
@@ -249,7 +301,6 @@ h1 {
 		margin: 20px;
 		margin-top: 0px;
 	}
-
 }
 
 .service_item {
@@ -262,7 +313,6 @@ h1 {
 .service_item img {
 	width: 90px;
 }
-
 
 /*   SERVICE  END    */
 
@@ -332,7 +382,6 @@ h1 {
 	}
 }
 
-
 /*   ABOUTUS  END    */
 
 /*************************************************************************/
@@ -341,7 +390,7 @@ h1 {
 
 .priceGrid {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 100%;
 	margin: 10px;
 	margin-top: 0px;
 }
@@ -375,7 +424,7 @@ table th {
 
 table td {
 	background: #fff;
-	padding: 10px;
+	padding: 5px;
 }
 
 /*   PRICE  END      */
@@ -402,7 +451,6 @@ table td {
 .brendy img:hover {
 	-webkit-filter: grayscale(0%);
 }
-
 
 /*   BREND  END      */
 
@@ -484,11 +532,13 @@ textarea {
 	margin: 0 auto;
 	text-align: center;
 }
+
 /*   FORM  END       */
 
 /***********************************************************************/
 
 /*   CONTACT START   */
+
 .kontaktyGrid {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
@@ -531,9 +581,13 @@ textarea {
 	border: 0;
 	margin-bottom: -3px;
 }
+
 /*   CONTACT  END    */
+
 /***********************************************************************/
-/*   FOOER START   */
+
+/*   FOOTER START   */
+
 .hrblack {
 	height: 8px;
 	background-color: #7a7a7a;
@@ -563,7 +617,11 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 }
-/*   FOOER END   */
+
+/*   FOOTER END   */
+/***********************************************************************/
+/*   SECTION START   */
+
 #service {
 	background: #ebebeb;
 }
@@ -587,3 +645,4 @@ footer {
 #contact {
 	background: #f7f6f6;
 }
+/*   SECTION END  */
